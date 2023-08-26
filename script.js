@@ -86,7 +86,7 @@ buttonNewGame.addEventListener('click', function () {
   player0.classList.add('player--active');
   player1.classList.remove('player--active');
   player0.classList.remove('player--winner');
-  player0.classList.remove('player--winner');
+  player1.classList.remove('player--winner');
   diceEl.classList.add('hidden');
   scorePlayer0.textContent = 0;
   scorePlayer1.textContent = 0;
