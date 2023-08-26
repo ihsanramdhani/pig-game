@@ -90,6 +90,6 @@ buttonNewGame.addEventListener('click', function () {
   scorePlayer1.textContent = 0;
   currPlayer0.textContent = 0;
   currPlayer1.textContent = 0;
-  buttonRoll.disabled = false;
-  buttonHold.disabled = false;
+  buttonRoll.classList.remove('hidden');
+  buttonHold.classList.remove('hidden');
 });
