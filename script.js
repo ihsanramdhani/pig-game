@@ -72,10 +72,12 @@ buttonHold.addEventListener('click', function () {
     player0.classList.add('player--winner');
     buttonRoll.classList.add('hidden');
     buttonHold.classList.add('hidden');
+    diceEl.classList.add('hidden');
   } else if (Number(scorePlayer1.textContent) >= 100) {
     player1.classList.add('player--winner');
     buttonRoll.classList.add('hidden');
     buttonHold.classList.add('hidden');
+    diceEl.classList.add('hidden');
   }
 });
 
