@@ -68,11 +68,11 @@ buttonHold.addEventListener('click', function () {
   }
 
   // win condition
-  if (Number(scorePlayer0.textContent) === 100) {
+  if (Number(scorePlayer0.textContent) >= 100) {
     player0.classList.add('player--winner');
     buttonRoll.disabled = true;
     buttonHold.disabled = true;
-  } else if (Number(scorePlayer1.textContent) === 100) {
+  } else if (Number(scorePlayer1.textContent) >= 100) {
     player1.classList.add('player--winner');
     buttonRoll.disabled = true;
     buttonHold.disabled = true;
