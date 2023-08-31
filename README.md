@@ -7,3 +7,6 @@ A two-player game. Whoever reach 100 first wins the game
 
 ## Flowchart
 ![Pig Game Flowchart](./pig-game-flowchart.png)
+
+## Try It!
+https://ihsanramdhani.github.io/pig-game/
